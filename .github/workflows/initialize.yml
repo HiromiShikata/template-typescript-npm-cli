@@ -17,7 +17,11 @@ jobs:
       - run: git pull
 
       - name: Run replace-all-words
-        run: npx replace-all-words ./ 'template-typescript' "${{ github.event.repository.name }}"
+        run: |
+          npx replace-all-words ./ 'template-typescript' "${{ github.event.repository.name }}"
+          cat .git/config
+          git --no-pager diff 
+          git status
         if: ${{ github.event.repository.name }} != 'template-typescript'
       - uses: stefanzweifel/git-auto-commit-action@v4
         with:
