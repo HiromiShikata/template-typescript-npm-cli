@@ -25,6 +25,7 @@ Welcome to template-typescript-npm-cli, your trusty command-line tool for seamle
 
 Here's how you can use template-typescript-npm-cli:
 TODO: copy output of `npx template-typescript-npm-cli --help`
+
 ```
 Usage: Replace all words [options] <targetDirectoryPath> <beforeWord> <afterWord>
 
@@ -40,13 +41,16 @@ Options:
 ## Example 📖
 
 Here's a quick example to illustrate its usage:
-TODO: 
+TODO:
+
 ```
 npx template-typescript-npm-cli
 ```
 
 ## Contributing
+
 See [CONTRIBUTING.md](./CONTRIBUTING.md)
 
 ## License
+
 MIT
