@@ -4,7 +4,7 @@
 [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier)
 [![semantic-release: angular](https://img.shields.io/badge/semantic--release-angular-e10079?logo=semantic-release)](https://github.com/semantic-release/semantic-release)
 
-Welcome to template-typescript-npm-cli, your trusty command-line tool for seamless word replacements across your entire project, irrespective of the programming language used! Whether you're refactoring or renaming files, this tool significantly cuts down your time spent on manual replacements. 🚀
+Welcome to template-typescript-npm-cli, your trusty command-line tool for seamless word replacements across your entire project, irrespective of the programming language used. Whether you're refactoring or renaming files, this tool significantly cuts down your time spent on manual replacements. 🚀
 
 ## How to use this template
 
