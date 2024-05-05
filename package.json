@@ -2,7 +2,7 @@
   "name": "template-typescript-npm-cli",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
     "prebuild": "npm run doctor",
     "doctor:node-version": "check-node-version --node 20 --npx 10 --npm 10",
@@ -13,6 +13,9 @@
     "fmt": "npm run prettier && npm run lint-fix",
     "build": "tsc -p ./tsconfig.build.json",
     "test": "jest"
+  },
+  "bin": {
+    "template-typescript-npm-cli": "./bin/adapter/entry-points/cli/index.js"
   },
   "repository": {
     "type": "git",
