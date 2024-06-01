@@ -41,7 +41,7 @@
   "homepage": "https://github.com/HiromiShikata/template-typescript-npm-cli#readme",
   "devDependencies": {
     "@semantic-release/changelog": "^6.0.3",
-    "@semantic-release/commit-analyzer": "^12.0.0",
+    "@semantic-release/commit-analyzer": "^13.0.0",
     "@types/jest": "^29.5.12",
     "@typescript-eslint/eslint-plugin": "^7.2.0",
     "@typescript-eslint/parser": "^7.2.0",
@@ -56,7 +56,7 @@
     "jest-html-reporter": "^3.10.2",
     "jest-junit": "^16.0.0",
     "prettier": "^3.2.5",
-    "semantic-release": "^23.0.2",
+    "semantic-release": "^24.0.0",
     "ts-jest": "^29.1.2",
     "typescript": "^5.4.2"
   },
