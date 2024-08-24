@@ -18,6 +18,7 @@ Welcome to template-typescript-npm-cli, this template os for npm command-line.
 
    - [GH_TOKEN](https://github.com/settings/tokens)
    - [NPM_TOKEN](https://www.npmjs.com/settings/hiromi/tokens)
+   - [RELEASE_APP_PRIVATE_KEY](https://github.com/settings/apps/semantic-release-changelog)
 
 1. Remove `How to use this template` section from README.md
 
