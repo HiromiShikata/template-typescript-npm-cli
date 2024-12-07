@@ -17,6 +17,7 @@
   "bin": {
     "template-typescript-npm-cli": "./bin/adapter/entry-points/cli/index.js"
   },
+  "types": "types/index.d.ts",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/HiromiShikata/template-typescript-npm-cli.git"
