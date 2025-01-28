@@ -1,3 +1,10 @@
+## [1.0.8](https://github.com/HiromiShikata/template-typescript-npm-cli/compare/v1.0.7...v1.0.8) (2025-01-28)
+
+
+### Bug Fixes
+
+* avoid to trigger initialize job in template repo ([d73e95c](https://github.com/HiromiShikata/template-typescript-npm-cli/commit/d73e95c709f3dabab5712cef45da1abc9a2589ba))
+
 ## [1.0.7](https://github.com/HiromiShikata/template-typescript-npm-cli/compare/v1.0.6...v1.0.7) (2025-01-25)
 
 
