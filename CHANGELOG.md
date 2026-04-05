@@ -1,3 +1,10 @@
+## [1.1.1](https://github.com/HiromiShikata/template-typescript-npm-cli/compare/v1.1.0...v1.1.1) (2026-04-05)
+
+
+### Bug Fixes
+
+* update tsconfig for @typescript/native-preview 7.0.0-dev.20260404.1 compatibility ([668e9ae](https://github.com/HiromiShikata/template-typescript-npm-cli/commit/668e9ae27bdf6128eb5c9f5771482067c937300f))
+
 # [1.1.0](https://github.com/HiromiShikata/template-typescript-npm-cli/compare/v1.0.8...v1.1.0) (2026-01-30)
 
 
