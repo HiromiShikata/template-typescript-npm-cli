@@ -4,6 +4,7 @@
   "exclude": ["node_modules", "**/__tests__/*", "**/*.test.ts"],
   "compilerOptions": {
     "outDir": "bin",
+    "rootDir": "./src",
     "declaration": true,
     "declarationMap": true,
     "declarationDir": "types"
