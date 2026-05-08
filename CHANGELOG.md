@@ -1,3 +1,10 @@
+## [1.1.2](https://github.com/HiromiShikata/template-typescript-npm-cli/compare/v1.1.1...v1.1.2) (2026-05-08)
+
+
+### Bug Fixes
+
+* add explicit jest and node types for TypeScript 6 compatibility ([97a1811](https://github.com/HiromiShikata/template-typescript-npm-cli/commit/97a1811501419a6636c04cb0156c6c304426268d))
+
 ## [1.1.1](https://github.com/HiromiShikata/template-typescript-npm-cli/compare/v1.1.0...v1.1.1) (2026-04-05)
 
 
