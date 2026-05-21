@@ -1,3 +1,10 @@
+# [1.2.0](https://github.com/HiromiShikata/template-typescript-npm-cli/compare/v1.1.2...v1.2.0) (2026-05-21)
+
+
+### Features
+
+* **core:** add hardened .npmrc to mitigate npm supply-chain attacks ([d35e314](https://github.com/HiromiShikata/template-typescript-npm-cli/commit/d35e3148463ee2bffbfeb20376a22dd6d1bcc0dc))
+
 ## [1.1.2](https://github.com/HiromiShikata/template-typescript-npm-cli/compare/v1.1.1...v1.1.2) (2026-05-08)
 
 
