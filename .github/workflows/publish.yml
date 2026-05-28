@@ -18,7 +18,11 @@ jobs:
       issues: write
       pull-requests: write
       id-token: write
+      security-events: write
     steps:
+      - uses: step-security/harden-runner@v2
+        with:
+          egress-policy: audit
       - uses: actions/create-github-app-token@v3
         id: app-token
         with:
