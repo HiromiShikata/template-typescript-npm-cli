@@ -34,6 +34,8 @@ on:
       - reopened
       - synchronize
 
+permissions: read-all
+
 env:
   unread: Unread
   in_progress: In Progress
