@@ -1,3 +1,10 @@
+## [1.2.1](https://github.com/HiromiShikata/template-typescript-npm-cli/compare/v1.2.0...v1.2.1) (2026-06-05)
+
+
+### Bug Fixes
+
+* ignore .toml files in prettier to fix format CI failure ([d2de049](https://github.com/HiromiShikata/template-typescript-npm-cli/commit/d2de04915d44f8f067ec3399d103b11d993f1da3)), closes [#426](https://github.com/HiromiShikata/template-typescript-npm-cli/issues/426)
+
 # [1.2.0](https://github.com/HiromiShikata/template-typescript-npm-cli/compare/v1.1.2...v1.2.0) (2026-05-21)
 
 
