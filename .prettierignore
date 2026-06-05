@@ -20,5 +20,6 @@ LICENSE
 *.rej
 *.diff
 *.log
+*.toml
 CODEOWNERS
 types/
