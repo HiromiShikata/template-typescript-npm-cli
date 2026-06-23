@@ -5,6 +5,8 @@
 
 name: Close Manual PRs
 
+permissions: {}
+
 on:
   pull_request:
     types:
