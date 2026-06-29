@@ -1,3 +1,10 @@
+## [1.2.2](https://github.com/HiromiShikata/template-typescript-npm-cli/compare/v1.2.1...v1.2.2) (2026-06-29)
+
+
+### Bug Fixes
+
+* **deps:** update dependency commander to v15 ([#430](https://github.com/HiromiShikata/template-typescript-npm-cli/issues/430)) ([ea6fb04](https://github.com/HiromiShikata/template-typescript-npm-cli/commit/ea6fb0480e855bc2ba2a04b64f38a4d6839a2b66))
+
 ## [1.2.1](https://github.com/HiromiShikata/template-typescript-npm-cli/compare/v1.2.0...v1.2.1) (2026-06-05)
 
 
