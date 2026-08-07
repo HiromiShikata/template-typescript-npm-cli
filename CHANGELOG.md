@@ -1,3 +1,38 @@
+## [1.2.2](https://github.com/HiromiShikata/template-typescript-npm-cli/compare/v1.2.1...v1.2.2) (2026-06-29)
+
+
+### Bug Fixes
+
+* **deps:** update dependency commander to v15 ([#430](https://github.com/HiromiShikata/template-typescript-npm-cli/issues/430)) ([ea6fb04](https://github.com/HiromiShikata/template-typescript-npm-cli/commit/ea6fb0480e855bc2ba2a04b64f38a4d6839a2b66))
+
+## [1.2.1](https://github.com/HiromiShikata/template-typescript-npm-cli/compare/v1.2.0...v1.2.1) (2026-06-05)
+
+
+### Bug Fixes
+
+* ignore .toml files in prettier to fix format CI failure ([d2de049](https://github.com/HiromiShikata/template-typescript-npm-cli/commit/d2de04915d44f8f067ec3399d103b11d993f1da3)), closes [#426](https://github.com/HiromiShikata/template-typescript-npm-cli/issues/426)
+
+# [1.2.0](https://github.com/HiromiShikata/template-typescript-npm-cli/compare/v1.1.2...v1.2.0) (2026-05-21)
+
+
+### Features
+
+* **core:** add hardened .npmrc to mitigate npm supply-chain attacks ([d35e314](https://github.com/HiromiShikata/template-typescript-npm-cli/commit/d35e3148463ee2bffbfeb20376a22dd6d1bcc0dc))
+
+## [1.1.2](https://github.com/HiromiShikata/template-typescript-npm-cli/compare/v1.1.1...v1.1.2) (2026-05-08)
+
+
+### Bug Fixes
+
+* add explicit jest and node types for TypeScript 6 compatibility ([97a1811](https://github.com/HiromiShikata/template-typescript-npm-cli/commit/97a1811501419a6636c04cb0156c6c304426268d))
+
+## [1.1.1](https://github.com/HiromiShikata/template-typescript-npm-cli/compare/v1.1.0...v1.1.1) (2026-04-05)
+
+
+### Bug Fixes
+
+* update tsconfig for @typescript/native-preview 7.0.0-dev.20260404.1 compatibility ([668e9ae](https://github.com/HiromiShikata/template-typescript-npm-cli/commit/668e9ae27bdf6128eb5c9f5771482067c937300f))
+
 # [1.1.0](https://github.com/HiromiShikata/template-typescript-npm-cli/compare/v1.0.8...v1.1.0) (2026-01-30)
 
 

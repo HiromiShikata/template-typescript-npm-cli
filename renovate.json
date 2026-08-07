@@ -1,8 +1,13 @@
+// DO NOT EDIT DIRECTLY.
+// This file is auto-synchronized from HiromiShikata/repositories-management.
+// Direct edits in downstream repositories will be overwritten by the next sync.
+// Update the source file in HiromiShikata/repositories-management instead.
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": ["config:base"],
   "automerge": true,
   "platformAutomerge": true,
+  "minimumReleaseAge": "7 days",
   "rebaseWhen": "auto",
   "prConcurrentLimit": 2,
   "schedule": ["every weekend"],
@@ -10,7 +15,13 @@
   "dependencyDashboard": false,
   "branchConcurrentLimit": 2,
   "ignorePaths": ["**/generated/*", "**/_gen/*"],
+  "osvVulnerabilityAlerts": true,
   "packageRules": [
+    {
+      "matchUpdateTypes": ["minor", "patch", "pin", "digest"],
+      "groupName": "all non-major dependencies",
+      "groupSlug": "all-non-major"
+    },
     {
       "matchPackageNames": ["eslint"],
       "allowedVersions": "<9.0.0"
