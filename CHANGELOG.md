@@ -1,3 +1,10 @@
+## [1.2.3](https://github.com/HiromiShikata/template-typescript-npm-cli/compare/v1.2.2...v1.2.3) (2026-08-15)
+
+
+### Bug Fixes
+
+* **deps:** update package-lock.json to address security vulnerabilities ([#500](https://github.com/HiromiShikata/template-typescript-npm-cli/issues/500)) ([3ac204a](https://github.com/HiromiShikata/template-typescript-npm-cli/commit/3ac204ab6e2478f4626dc24f14316d4cf25186f2)), closes [HiromiShikata/template-typescript-npm-cli#497](https://github.com/HiromiShikata/template-typescript-npm-cli/issues/497)
+
 ## [1.2.2](https://github.com/HiromiShikata/template-typescript-npm-cli/compare/v1.2.1...v1.2.2) (2026-06-29)
 
 
