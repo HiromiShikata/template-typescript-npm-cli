@@ -21,5 +21,6 @@ LICENSE
 *.diff
 *.log
 *.toml
+*.sh
 CODEOWNERS
 types/
