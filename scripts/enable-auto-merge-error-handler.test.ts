@@ -52,6 +52,21 @@ describe('enable-auto-merge-error-handler.sh', () => {
     expect(stdout).toContain('Warning: could not enable auto merge');
   });
 
+  test('exits 0 with warning when error message contains required protected branch', () => {
+    const input = JSON.stringify({
+      errors: [
+        {
+          message:
+            'Required statuses must pass before merging on a protected branch',
+          type: 'UNPROCESSABLE',
+        },
+      ],
+    });
+    const { exitCode, stdout } = runScript(input);
+    expect(exitCode).toBe(0);
+    expect(stdout).toContain('Warning: could not enable auto merge');
+  });
+
   test('exits 1 when error is unrecognized', () => {
     const input = JSON.stringify({
       errors: [{ message: 'something went wrong', type: 'INTERNAL' }],
