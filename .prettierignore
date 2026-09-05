@@ -2,14 +2,12 @@
 .gitignore
 .prettierignore
 .gitkeep
-
-
+*.sh
 .idea
 reports
 dist
 bin
 .npmignore
-.npmrc
 *.map
 CHANGELOG.md
 .env
@@ -20,7 +18,4 @@ LICENSE
 *.rej
 *.diff
 *.log
-*.toml
-*.sh
 CODEOWNERS
-types/
