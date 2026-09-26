@@ -1,3 +1,10 @@
+## [1.2.4](https://github.com/HiromiShikata/template-typescript-npm-cli/compare/v1.2.3...v1.2.4) (2026-09-26)
+
+
+### Bug Fixes
+
+* **deps:** update dependency dotenv to v18 ([#523](https://github.com/HiromiShikata/template-typescript-npm-cli/issues/523)) ([be991bb](https://github.com/HiromiShikata/template-typescript-npm-cli/commit/be991bb03a1f235db1c08b7e135e64aac48477b1))
+
 ## [1.2.3](https://github.com/HiromiShikata/template-typescript-npm-cli/compare/v1.2.2...v1.2.3) (2026-08-15)
 
 
