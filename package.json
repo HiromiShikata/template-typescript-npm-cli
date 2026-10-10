@@ -45,6 +45,7 @@
   "homepage": "https://github.com/HiromiShikata/template-typescript-npm-cli#readme",
   "devDependencies": {
     "@semantic-release/changelog": "^7.0.0",
+    "@semantic-release/npm": "^13.1.0",
     "@semantic-release/commit-analyzer": "^13.0.0",
     "@types/jest": "^30.0.0",
     "@eslint/js": "^10.0.1",
@@ -67,7 +68,6 @@
     "typescript": "npm:@typescript/typescript6@6.0.2"
   },
   "dependencies": {
-    "@semantic-release/npm": "^13.1.0",
     "commander": "^15.0.0",
     "dotenv": "^18.0.0"
   }
