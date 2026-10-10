@@ -1,6 +1,7 @@
 describe('dependency security versions', () => {
   test('brace-expansion version is at least 5.0.12', () => {
-    const braceExpansionVersion: string = require('brace-expansion/package.json').version;
+    const braceExpansionVersion: string =
+      require('brace-expansion/package.json').version;
     const [major, minor, patch] = braceExpansionVersion.split('.').map(Number);
     const isAtLeastMinimumVersion =
       major > 5 ||
