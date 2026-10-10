@@ -1,3 +1,10 @@
+## [1.2.6](https://github.com/HiromiShikata/template-typescript-npm-cli/compare/v1.2.5...v1.2.6) (2026-10-10)
+
+
+### Bug Fixes
+
+* add missing trailing newline to generated .d.ts type declaration files on main ([#547](https://github.com/HiromiShikata/template-typescript-npm-cli/issues/547)) ([6725a95](https://github.com/HiromiShikata/template-typescript-npm-cli/commit/6725a957bb3d07d088e190c4ba4b18216ea6f7be))
+
 ## [1.2.5](https://github.com/HiromiShikata/template-typescript-npm-cli/compare/v1.2.4...v1.2.5) (2026-10-10)
 
 
