@@ -19,4 +19,31 @@ describe('dependency security versions', () => {
       (major === 6 && minor === 28 && patch >= 1);
     expect(isAtLeastMinimumVersion).toBe(true);
   });
+
+  test('handlebars version is at least 4.7.10', () => {
+    const handlebarsVersion: string =
+      require('handlebars/package.json').version;
+    const [major, minor, patch] = handlebarsVersion.split('.').map(Number);
+
+    const isAtLeastMinimumVersion =
+      major > 4 ||
+      (major === 4 && minor > 7) ||
+      (major === 4 && minor === 7 && patch >= 10);
+
+    expect(isAtLeastMinimumVersion).toBe(true);
+  });
+
+  test('@semantic-release/npm is listed under devDependencies and not dependencies', () => {
+    const rootPackageJson: {
+      dependencies?: Record<string, string>;
+      devDependencies?: Record<string, string>;
+    } = require('../package.json');
+
+    expect(rootPackageJson.dependencies).not.toHaveProperty(
+      '@semantic-release/npm',
+    );
+    expect(rootPackageJson.devDependencies).toHaveProperty(
+      '@semantic-release/npm',
+    );
+  });
 });
