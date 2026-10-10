@@ -11,7 +11,7 @@
     "lint": "eslint src",
     "lint-fix": "eslint src --fix",
     "fmt": "npm run prettier && npm run lint-fix",
-    "build": "tsgo -p ./tsconfig.build.json",
+    "build": "tsgo -p ./tsconfig.build.json && prettier --write types/index.d.ts types/adapter/entry-points/cli/index.d.ts",
     "test": "jest"
   },
   "bin": {
