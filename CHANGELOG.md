@@ -1,3 +1,10 @@
+## [1.2.5](https://github.com/HiromiShikata/template-typescript-npm-cli/compare/v1.2.4...v1.2.5) (2026-10-10)
+
+
+### Bug Fixes
+
+* **deps:** Bump handlebars, postcss-selector-parser, ip-address, brace-expansion, and undici to fix 13 open Dependabot alerts ([#548](https://github.com/HiromiShikata/template-typescript-npm-cli/issues/548)) ([54d8fbe](https://github.com/HiromiShikata/template-typescript-npm-cli/commit/54d8fbe707277a2b9bdc2f8c345d940a38c86cc4))
+
 ## [1.2.4](https://github.com/HiromiShikata/template-typescript-npm-cli/compare/v1.2.3...v1.2.4) (2026-09-26)
 
 
