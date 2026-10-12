@@ -3,9 +3,6 @@ import * as path from 'path';
 
 describe('dependency update 20261012 versions', () => {
   test('@semantic-release/npm version is at least 13.2.0', () => {
-    // '@semantic-release/npm' restricts its "exports" field so
-    // require('@semantic-release/npm/package.json') is not resolvable;
-    // read the installed package.json from disk instead.
     const semanticReleaseNpmPackageJsonPath = path.join(
       __dirname,
       '..',
@@ -54,9 +51,6 @@ describe('dependency update 20261012 versions', () => {
   });
 
   test('conventional-changelog-conventionalcommits version is at least 10.4.1', () => {
-    // 'conventional-changelog-conventionalcommits' restricts its "exports"
-    // field so require('conventional-changelog-conventionalcommits/package.json')
-    // is not resolvable; read the installed package.json from disk instead.
     const conventionalChangelogConventionalcommitsPackageJsonPath = path.join(
       __dirname,
       '..',
