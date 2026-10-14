@@ -1,3 +1,10 @@
+## [1.2.8](https://github.com/HiromiShikata/template-typescript-npm-cli/compare/v1.2.7...v1.2.8) (2026-10-14)
+
+
+### Bug Fixes
+
+* **types:** remove stale types/src/ declaration files and add published-package regression test ([#558](https://github.com/HiromiShikata/template-typescript-npm-cli/issues/558)) ([c453668](https://github.com/HiromiShikata/template-typescript-npm-cli/commit/c453668142c636db212530d1419754575f97fa38)), closes [#549](https://github.com/HiromiShikata/template-typescript-npm-cli/issues/549)
+
 ## [1.2.6](https://github.com/HiromiShikata/template-typescript-npm-cli/compare/v1.2.5...v1.2.6) (2026-10-10)
 
 
