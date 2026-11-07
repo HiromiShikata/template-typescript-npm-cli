@@ -20,6 +20,16 @@ describe('dependency security versions', () => {
     expect(isAtLeastMinimumVersion).toBe(true);
   });
 
+  test('undici version is at least 6.29.1', () => {
+    const undiciVersion: string = require('undici/package.json').version;
+    const [major, minor, patch] = undiciVersion.split('.').map(Number);
+    const isAtLeastMinimumVersion =
+      major > 6 ||
+      (major === 6 && minor > 29) ||
+      (major === 6 && minor === 29 && patch >= 1);
+    expect(isAtLeastMinimumVersion).toBe(true);
+  });
+
   test('handlebars version is at least 4.7.10', () => {
     const handlebarsVersion: string =
       require('handlebars/package.json').version;
