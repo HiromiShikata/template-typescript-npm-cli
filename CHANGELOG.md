@@ -1,3 +1,10 @@
+## [1.2.9](https://github.com/HiromiShikata/template-typescript-npm-cli/compare/v1.2.8...v1.2.9) (2026-11-14)
+
+
+### Bug Fixes
+
+* **ci:** pin actions to commit SHAs and scope release secrets ([#573](https://github.com/HiromiShikata/template-typescript-npm-cli/issues/573)) ([9b984ce](https://github.com/HiromiShikata/template-typescript-npm-cli/commit/9b984ce4116d58b24514b3ec7617a935db7baa95))
+
 ## [1.2.8](https://github.com/HiromiShikata/template-typescript-npm-cli/compare/v1.2.7...v1.2.8) (2026-10-14)
 
 
