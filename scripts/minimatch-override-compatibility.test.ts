@@ -125,11 +125,7 @@ describe('forced minimatch compatibility for glob and test-exclude', () => {
       {
         pattern: '**/*.ts',
         options: { ignore: ['**/*.test.ts'] },
-        expected: [
-          'src/deep/a/b/c.ts',
-          'src/index.ts',
-          'src/util/format.ts',
-        ],
+        expected: ['src/deep/a/b/c.ts', 'src/index.ts', 'src/util/format.ts'],
       },
     ];
     for (const testCase of cases) {
@@ -149,7 +145,7 @@ describe('forced minimatch compatibility for glob and test-exclude', () => {
     }
   });
 
-  test('test-exclude glob matching (its own glob copy and minimatch) returns the expected file lists', () => {
+  test('test-exclude glob matching under the forced minimatch returns the expected file lists', () => {
     const TestExclude = require('test-exclude') as new (
       options: TestExcludeOptions,
     ) => TestExcludeInstance;
@@ -161,11 +157,7 @@ describe('forced minimatch compatibility for glob and test-exclude', () => {
       {
         include: ['src/**'],
         exclude: ['**/*.test.ts'],
-        expected: [
-          'src/deep/a/b/c.ts',
-          'src/index.ts',
-          'src/util/format.ts',
-        ],
+        expected: ['src/deep/a/b/c.ts', 'src/index.ts', 'src/util/format.ts'],
       },
       {
         include: ['src/**'],
@@ -226,34 +218,27 @@ describe('forced minimatch compatibility for glob and test-exclude', () => {
     }
   });
 
-  test('records which minimatch copy each consumer resolves to', () => {
+  test('test-exclude resolves glob to the same copy the glob 13 tests exercise, on the forced minimatch', () => {
+    const testExcludeGlobDirectory = path.dirname(
+      require.resolve('glob/package.json', { paths: [testExcludeDirectory] }),
+    );
     const testExcludeMinimatchPath = require.resolve('minimatch', {
       paths: [testExcludeDirectory],
     });
-    const nestedGlobDirectory = path.dirname(
-      require.resolve('glob/package.json', { paths: [testExcludeDirectory] }),
-    );
-    const nestedGlobMinimatchPath = require.resolve('minimatch', {
-      paths: [nestedGlobDirectory],
-    });
     const globMinimatchPath = require.resolve('minimatch', {
-      paths: [globDirectory],
+      paths: [testExcludeGlobDirectory],
     });
     expect({
+      testExcludeGlobIsRootGlob: testExcludeGlobDirectory === globDirectory,
       testExcludeMinimatch: testExcludeMinimatchPath.startsWith(
-        path.join(testExcludeDirectory, 'node_modules', 'minimatch') +
-          path.sep,
-      ),
-      nestedGlobMinimatch: nestedGlobMinimatchPath.startsWith(
-        path.join(testExcludeDirectory, 'node_modules', 'minimatch') +
-          path.sep,
+        path.join(testExcludeDirectory, 'node_modules', 'minimatch') + path.sep,
       ),
       globMinimatch: globMinimatchPath.startsWith(
         path.join(globDirectory, 'node_modules', 'minimatch') + path.sep,
       ),
     }).toEqual({
+      testExcludeGlobIsRootGlob: true,
       testExcludeMinimatch: true,
-      nestedGlobMinimatch: true,
       globMinimatch: true,
     });
   });
