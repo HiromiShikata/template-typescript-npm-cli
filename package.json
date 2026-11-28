@@ -70,5 +70,14 @@
   "dependencies": {
     "commander": "^15.1.0",
     "dotenv": "^18.0.10"
+  },
+  "overrides": {
+    "glob": {
+      "minimatch": "11.0.1"
+    },
+    "test-exclude": {
+      "minimatch": "11.0.1",
+      "glob": "^13.0.6"
+    }
   }
 }
