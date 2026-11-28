@@ -1,3 +1,10 @@
+## [1.2.10](https://github.com/HiromiShikata/template-typescript-npm-cli/compare/v1.2.9...v1.2.10) (2026-11-28)
+
+
+### Bug Fixes
+
+* **deps:** update vulnerable dependencies ([#581](https://github.com/HiromiShikata/template-typescript-npm-cli/issues/581)) ([ae12ec6](https://github.com/HiromiShikata/template-typescript-npm-cli/commit/ae12ec6d2ae18f29f9f0be449733f0b619f44ba4))
+
 ## [1.2.9](https://github.com/HiromiShikata/template-typescript-npm-cli/compare/v1.2.8...v1.2.9) (2026-11-14)
 
 
