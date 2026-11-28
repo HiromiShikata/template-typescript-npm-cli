@@ -75,9 +75,18 @@
     "glob": {
       "minimatch": "11.0.1"
     },
+    "@jest/reporters": {
+      "glob": "^14.0.2"
+    },
+    "jest-config": {
+      "glob": "^14.0.2"
+    },
+    "jest-runtime": {
+      "glob": "^14.0.2"
+    },
     "test-exclude": {
       "minimatch": "11.0.1",
-      "glob": "^13.0.6"
+      "glob": "^14.0.2"
     }
   }
 }
