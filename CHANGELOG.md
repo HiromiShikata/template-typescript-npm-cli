@@ -1,3 +1,10 @@
+## [1.2.11](https://github.com/HiromiShikata/template-typescript-npm-cli/compare/v1.2.10...v1.2.11) (2026-11-28)
+
+
+### Bug Fixes
+
+* **deps:** upgrade glob to patched 14.x for jest and test-exclude ([#582](https://github.com/HiromiShikata/template-typescript-npm-cli/issues/582)) ([5223372](https://github.com/HiromiShikata/template-typescript-npm-cli/commit/5223372ea7fee89a4ea992c22acbd0f57aaac724))
+
 ## [1.2.10](https://github.com/HiromiShikata/template-typescript-npm-cli/compare/v1.2.9...v1.2.10) (2026-11-28)
 
 
